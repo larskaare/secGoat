@@ -9,11 +9,14 @@ var usersRouter = require('./routes/users');
 
 var app = express();
 
+//FIXME : This section should be removed
 const CLIENT_ID="A client ID";
 const CLIENT_SECRET="A client Secret";
 const pw = "password";
 
 console.log('Password : ' + pw);
+//
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
